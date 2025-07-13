@@ -7,6 +7,7 @@ GitHub action to automatically merge pull requests when they are ready.
 When added, this action will run the following tasks on pull requests with the
 `automerge` label:
 
+
 - Changes from the base branch will automatically be merged into the pull
   request (only when "Require branches to be up to date before merging"
   is enabled in the branch protection rules)
